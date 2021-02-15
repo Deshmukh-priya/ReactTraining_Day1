@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+        <table BORDER="1" style="background-color:burlywood;">
+            <tr>
+              <td>Name</td>
+              <td>
+                <INPUT TYPE="TEXT" NAME="name" SIZE="10">
+                </td>
+            </tr>
+            <tr>
+              <td>Password</td>
+              <td><INPUT TYPE="password" NAME="pass" SIZE="15"></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td><input type="number" size="10"></td>
+            
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio"><label>Male</label>
+                    <input type="radio"><label>Female</label>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input id="date" name="date" type="date" min="2020-02-15" max="2021-02-15" >
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Highest Qualification</td>
+                <td>
+                 <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                 <option value="MTech">
+                 <option value="BTect">
+                 <option value="Bsc">
+                 <option value="MBA">
+               </datalist>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Courses Interested in</td>
+                <td>
+                    <input type="checkbox"><label>Java</label>
+                    <input type="checkbox"><label>Html</label>
+                    <input type="checkbox"><label>Angular js</label>
+                    <input type="checkbox"><label>Jquery</label>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>Comments:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Upload Degree/External Certificates</td>
+                <td><input type="file" id="myFile" name="filename"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit">
+                    <input type="button" value="Clear">
+                </td>
+            </tr>
+                
+        </table>
+        
+          </form>
+    </body>
+</html>

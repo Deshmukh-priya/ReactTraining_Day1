@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+        <TABLE BORDER="1">
+            <TR>
+              <TD>Name</TD>
+              <TD>
+                <INPUT TYPE="TEXT" NAME="name" SIZE="20">
+              </TD>
+            </TR>
+            <TR>
+              <TD>Employee Code</TD>
+              <TD><INPUT TYPE="TEXT" NAME="code" SIZE="4"></TD>
+            </TR>
+            <tr>
+                <td>Department Code</td>
+                <td>
+                    <input type="radio" id="admin" name="dept" value="admin">
+                    <label for="admin">Admin</label><br>
+                    <input type="radio" id="hr" name="dept" value="hr">
+                    <label for="hr">HR</label><br>
+                    <input type="radio" id="technical" name="dept" value="technical">
+                    <label for="other">Technical</label><br>
+                    <input type="radio" id="Accounts" name="dept" value="accounts">
+                    <label for="other">Accounts</label>
+                </td>
+           </tr>
+           <tr>
+               <td>Date of joining</td>
+               <td><input type="date" id="DOJ" name="DOJ"></td>
+           </tr>
+           <tr>
+               <td>Address</td>
+               <td><textarea id="adress" name="adress" rows="4" cols="50"></textarea></td>
+           </tr>
+           <tr>
+               <td>Training Program attented</td>
+               <td>
+                <input type="checkbox">
+                <label>HTML/DHTML</label><br>
+                <input type="checkbox">
+                <label>Java</label><br>
+                <input type="checkbox">
+                <label>Client/Server</label><br>
+                <input type="checkbox">
+                <label>.NET</label>
+            </td>
+           </tr>
+           <tr>
+               <td>Training Program need to attend</td>
+               <td>
+                <select name="programs" id="programs">
+                    <option value="java">Java</option>
+                    <option value="linux">Linux</option>
+                    <option value="Mysql">Mysql</option>
+                    <option value="net">.NET</option>
+                  </select>
+               </td>
+
+           </tr>
+           <tr>
+               <td>Send the information at</td>
+               <td><a href="#">empinfo@capgemini.com</a></td>
+           </tr>
+          </TABLE>
+        
+          </FORM>
+    </body>
+</html>

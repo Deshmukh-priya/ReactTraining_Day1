@@ -1,0 +1,13 @@
+body
+{
+  text-transform: capitalize;
+  text-indent: 0%;
+  color: #111111;
+
+}
+h1
+{
+    text-shadow: 3px 1px yellow;
+}
+
+/*Text transformation can be uppercase, lowercase or captitalise .
